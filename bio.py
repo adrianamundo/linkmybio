@@ -1,4 +1,4 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, url_for
 from datetime import datetime
 import yaml, os
 
@@ -10,8 +10,9 @@ environment=os.getenv("ENVIRONMENT","development")
 
 @app.route("/")
 def about():
+    images ={"profile" : url_for('static', filename = 'images/profille.jpeg'),}
     links = info['links']
-    return render_template("index.html", links = links)
+    return render_template("index.html", links = links, info=info, images = images)
 
 if __name__ == "__main__":
     debug=False
