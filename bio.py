@@ -4,14 +4,14 @@ import yaml, os
 
 app = Flask(__name__)
 
-info = yaml.safe_load(open("links.yaml"))
+info = yaml.load(open('links.yaml'))
 environment=os.getenv("ENVIRONMENT","development")
 
 
 @app.route("/")
 def about():
-    return render_template("demo.html", info=info)
-
+    links = info['links']
+    return render_template("index.html", links = links)
 
 if __name__ == "__main__":
     debug=False

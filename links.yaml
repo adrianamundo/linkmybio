@@ -1,28 +1,37 @@
-name: "Adriana Mundo"
-shortbio: "Computer Science Student at Universidad Francisco Marroquín."
+about:
+  name: "Adriana Mundo"
+  shortbio: "Computer Science Student at Universidad Francisco Marroquin. Learn more"
 
-links: 
-  - facebook:
+links:
+  facebook:
     enable: True
     linkf: "https://www.facebook.com/adrianamundog"
-    description: "Go check out my facebook"
-  - twitter:
+    description: "Go and send me a friend request"
+  twitter:
     enable: True
     linkt: "https://twitter.com/adrianamundo"
     description: "Go and follow me on Twitter"
-  - github:
+  github:
     enable: True
     linkg: "https://github.com/adrianamundo?tab=repositories"
     description: "Go checkout my Repositories on Github"
-  - youtube:
-    enable: True
-    linky: "https://www.youtube.com/channel/UCiXc_aWmLXaNokUcHAfqmVQ?view_as=subscriber"
-    description: "Go and suscribe to my Youtube Channel"
-  - like:
+  like:
     enable: True
     linkl: "https://www.tate.org.uk/art/artists/louise-bourgeois-2351"
     description: "Go and check some things that I like"
-  - blog:
+  blog:
     enable: False
     linkb: "https://www.google.com/"
     description: "You can find all here."
+  gmail:
+    enable: True
+    linkgm: "https://www.google.com/intl/es-419/gmail/about/"
+    description: "Send me an email"
+  youtube:
+    enable: True
+    linktube: "https://www.youtube.com/channel/UCiXc_aWmLXaNokUcHAfqmVQ?view_as=subscriber"
+    description: "Go follow me on youtube"
+  skype:
+    enable: True
+    linksk: "https://secure.skype.com/portal/overview"
+    description: "Go add me on Skype"

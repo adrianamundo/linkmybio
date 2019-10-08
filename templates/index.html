@@ -17,10 +17,10 @@
 
 	<!-- CSS
     ================================================== -->
-   <link rel="stylesheet" href="css/default.css">
-	<link rel="stylesheet" href="css/layout.css">
-   <link rel="stylesheet" href="css/media-queries.css">
-   <link rel="stylesheet" href="css/magnific-popup.css">
+   <link rel="stylesheet" href="static/css/default.css">
+	<link rel="stylesheet" href="static/css/layout.css">
+   <link rel="stylesheet" href="static/css/media-queries.css">
+   <link rel="stylesheet" href="static/css/magnific-popup.css">
 
    <!-- Script
    ================================================== -->
@@ -45,7 +45,7 @@
 
          <ul id="nav" class="nav">
             <li class="current"><a class="smoothscroll" href="#home">Home</a></li>
-            <li><a class="smoothscroll" href="#about">About</a></li>
+            <li><a class="smoothscroll" href="(/)">About</a></li>
 	         <li><a class="smoothscroll" href="#resume">Resume</a></li>
             <li><a class="smoothscroll" href="#portfolio">Works</a></li>
             <li><a class="smoothscroll" href="#testimonials">Testimonials</a></li>
@@ -56,24 +56,22 @@
 
       <div class="row banner">
          <div class="banner-text">
-            <h1 class="responsive-headline">I'm Jonathan Doe.</h1>
-            <h3>I'm a Manila based <span>graphic designer</span>, <span>illustrator</span> and <span>webdesigner</span> creating awesome and
-            effective visual identities for companies of all sizes around the globe. Let's <a class="smoothscroll" href="#about">start scrolling</a>
-            and learn more <a class="smoothscroll" href="#about">about me</a>.</h3>
+            <h1 class="responsive-headline">hola</h1>
+            <h3>h2<a class="smoothscroll" href="#about">about me</a>.</h3>
             <hr />
             <ul class="social">
-               <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-               <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-               <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-               <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-               <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-               <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-               <li><a href="#"><i class="fa fa-skype"></i></a></li>
+               <li><a href="{{links['facebook']['linkf']}}" title="{{links['facebook']['description']}}"><i class="fa fa-facebook"></i></a></li>
+               <li><a href="{{links['twitter']['linkt']}}" title="{{links['twitter']['description']}}"><i class="fa fa-twitter"></i></a></li>
+               <li><a href="{{links['gmail']['linkgm']}}" title="{{links['gmail']['description']}}"><i class="fa fa-google-plus"></i></a></li>
+               <li><a href="{{links['github']['linkg']}}" title="{{links['github']['description']}}"><i class="fa fa-github"></i></a></li>
+               <li><a href="{{links['youtube']['linktube']}}" title="{{links['youtube']['description']}}"><i class="fa fa-youtube-play"></i></a></li>
+               <li><a href="{{links['like']['linkl']}}" title="{{links['like']['description']}}"><i class="fa fa-camera-retro"></i></a></li>
+               <li><a href="{{links['skype']['linksk']}}" title="{{links['skype']['description']}}"><i class="fa fa-skype"></i></a></li>
             </ul>
          </div>
       </div>
 
-      <p class="scrolldown">
+      <!--<p class="scrolldown">
          <a class="smoothscroll" href="#about"><i class="icon-down-circle"></i></a>
       </p>
 
@@ -81,7 +79,7 @@
 
 
    <!-- About Section
-   ================================================== -->
+   ================================================== 
    <section id="about">
 
       <div class="row">
@@ -128,11 +126,11 @@
 
             </div> <!-- end row -->
 
-         </div> <!-- end .main-col -->
+         <!--</div>  end .main-col -->
 
-      </div>
+      <!--</div>
 
-   </section> <!-- About Section End-->
+   </section>  About Section End-->
 
 
    <!-- Resume Section
@@ -141,7 +139,7 @@
 
       <!-- Education
       ----------------------------------------------- -->
-      <div class="row education">
+      <!--<div class="row education">
 
          <div class="three columns header-col">
             <h1><span>Education</span></h1>
@@ -163,11 +161,11 @@
                   Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. Nullam dictum felis eu pede mollis pretium.
                   </p>
 
-               </div>
+               </div>-->
 
-            </div> <!-- item end -->
+            </div> <!-- item end --> 
 
-            <div class="row item">
+            <!--<div class="row item"> 
 
                <div class="twelve columns">
 
@@ -181,18 +179,18 @@
                   ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat
                   </p>
 
-               </div>
+               </div> 
 
             </div> <!-- item end -->
 
          </div> <!-- main-col end -->
 
       </div> <!-- End Education -->
-
+   
 
       <!-- Work
       ----------------------------------------------- -->
-      <div class="row work">
+      <!--<div class="row work">
 
          <div class="three columns header-col">
             <h1><span>Work</span></h1>
@@ -218,7 +216,7 @@
 
             </div> <!-- item end -->
 
-            <div class="row item">
+            <!--<div class="row item">
 
                <div class="twelve columns">
 
@@ -243,7 +241,7 @@
 
       <!-- Skills
       ----------------------------------------------- -->
-      <div class="row skill">
+      <!--<div class="row skill">
 
          <div class="three columns header-col">
             <h1><span>Skills</span></h1>
@@ -270,16 +268,16 @@
 
 				</div><!-- end skill-bars -->
 
-			</div> <!-- main-col end -->
+			<!--</div> <!-- main-col end -->
 
-      </div> <!-- End skills -->
+      <!--</div> <!-- End skills -->
 
-   </section> <!-- Resume Section End-->
+   <!--</section> <!-- Resume Section End-->
 
 
    <!-- Portfolio Section
    ================================================== -->
-   <section id="portfolio">
+   <!--<section id="portfolio">
 
       <div class="row">
 
@@ -288,7 +286,7 @@
             <h1>Check Out Some of My Works.</h1>
 
             <!-- portfolio-wrapper -->
-            <div id="portfolio-wrapper" class="bgrid-quarters s-bgrid-thirds cf">
+            <!--<div id="portfolio-wrapper" class="bgrid-quarters s-bgrid-thirds cf">
 
           	   <div class="columns portfolio-item">
                   <div class="item-wrap">
@@ -307,7 +305,7 @@
                   </div>
           		</div> <!-- item end -->
 
-               <div class="columns portfolio-item">
+               <!--<div class="columns portfolio-item">
                   <div class="item-wrap">
 
                      <a href="#modal-02" title="">
@@ -324,7 +322,7 @@
                   </div>
           		</div> <!-- item end -->
 
-               <div class="columns portfolio-item">
+               <!--<div class="columns portfolio-item">
                   <div class="item-wrap">
 
                      <a href="#modal-03" title="">
@@ -341,7 +339,7 @@
                   </div>
           		</div> <!-- item end -->
 
-               <div class="columns portfolio-item">
+               <!--<div class="columns portfolio-item">
                   <div class="item-wrap">
 
                      <a href="#modal-04" title="">
@@ -375,7 +373,7 @@
                   </div>
           		</div> <!-- item end -->
 
-               <div class="columns portfolio-item">
+               <!--<div class="columns portfolio-item">
                   <div class="item-wrap">
 
                      <a href="#modal-06" title="">
@@ -392,7 +390,7 @@
                   </div>
           		</div> <!-- item end -->
 
-               <div class="columns portfolio-item">
+               <!--<div class="columns portfolio-item">
                   <div class="item-wrap">
 
                      <a href="#modal-07" title="">
@@ -409,7 +407,7 @@
                   </div>
           		</div> <!-- item end -->
 
-               <div class="columns portfolio-item">
+               <!--<div class="columns portfolio-item">
                   <div class="item-wrap">
 
                      <a href="#modal-08" title="">
@@ -434,7 +432,7 @@
          <!-- Modal Popup
 	      --------------------------------------------------------------- -->
 
-         <div id="modal-01" class="popup-modal mfp-hide">
+         <!--<div id="modal-01" class="popup-modal mfp-hide">
 
 		      <img class="scale-with-grid" src="images/portfolio/modals/m-coffee.jpg" alt="" />
 
@@ -451,7 +449,7 @@
 
 	      </div><!-- modal-01 End -->
 
-         <div id="modal-02" class="popup-modal mfp-hide">
+        <!-- <div id="modal-02" class="popup-modal mfp-hide">
 
 		      <img class="scale-with-grid" src="images/portfolio/modals/m-console.jpg" alt="" />
 
@@ -468,7 +466,7 @@
 
 	      </div><!-- modal-02 End -->
 
-         <div id="modal-03" class="popup-modal mfp-hide">
+         <!--<div id="modal-03" class="popup-modal mfp-hide">
 
 		      <img class="scale-with-grid" src="images/portfolio/modals/m-judah.jpg" alt="" />
 
@@ -485,7 +483,7 @@
 
 	      </div><!-- modal-03 End -->
 
-         <div id="modal-04" class="popup-modal mfp-hide">
+         <!--<div id="modal-04" class="popup-modal mfp-hide">
 
 		      <img class="scale-with-grid" src="images/portfolio/modals/m-intothelight.jpg" alt="" />
 
@@ -502,7 +500,7 @@
 
 	      </div><!-- modal-04 End -->
 
-         <div id="modal-05" class="popup-modal mfp-hide">
+         <!--<div id="modal-05" class="popup-modal mfp-hide">
 
 		      <img class="scale-with-grid" src="images/portfolio/modals/m-farmerboy.jpg" alt="" />
 
@@ -519,7 +517,7 @@
 
 	      </div><!-- modal-05 End -->
 
-         <div id="modal-06" class="popup-modal mfp-hide">
+        <!-- <div id="modal-06" class="popup-modal mfp-hide">
 
 		      <img class="scale-with-grid" src="images/portfolio/modals/m-girl.jpg" alt="" />
 
@@ -536,7 +534,7 @@
 
 	      </div><!-- modal-06 End -->
 
-         <div id="modal-07" class="popup-modal mfp-hide">
+        <!-- <div id="modal-07" class="popup-modal mfp-hide">
 
 		      <img class="scale-with-grid" src="images/portfolio/modals/m-origami.jpg" alt="" />
 
@@ -553,7 +551,7 @@
 
 	      </div><!-- modal-07 End -->
 
-         <div id="modal-08" class="popup-modal mfp-hide">
+         <!--<div id="modal-08" class="popup-modal mfp-hide">
 
 		      <img class="scale-with-grid" src="images/portfolio/modals/m-retrocam.jpg" alt="" />
 
@@ -578,7 +576,7 @@
 
    <!-- Call-To-Action Section
    ================================================== -->
-   <section id="call-to-action">
+   <!--<section id="call-to-action">
 
       <div class="row">
 
@@ -609,7 +607,7 @@
 
    <!-- Testimonials Section
    ================================================== -->
-   <section id="testimonials">
+   <!--<section id="testimonials">
 
       <div class="text-container">
 
@@ -637,7 +635,7 @@
                         </blockquote>
                      </li> <!-- slide ends -->
 
-                     <li>
+                    <!-- <li>
                         <blockquote>
                            <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
                            Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem
@@ -662,7 +660,7 @@
 
    <!-- Contact Section
    ================================================== -->
-   <section id="contact">
+   <!--<section id="contact">
 
          <div class="row section-head">
 
@@ -688,7 +686,7 @@
             <div class="eight columns">
 
                <!-- form -->
-               <form action="" method="post" id="contactForm" name="contactForm">
+              <!-- <form action="" method="post" id="contactForm" name="contactForm">
 					<fieldset>
 
                   <div>
@@ -722,16 +720,16 @@
 				   </form> <!-- Form End -->
 
                <!-- contact-warning -->
-               <div id="message-warning"> Error boy</div>
+               <!--<div id="message-warning"> Error boy</div>
                <!-- contact-success -->
-				   <div id="message-success">
+				   <!--<div id="message-success">
                   <i class="fa fa-check"></i>Your message was sent, thank you!<br>
 				   </div>
 
             </div>
 
 
-            <aside class="four columns footer-widgets">
+           <!-- <aside class="four columns footer-widgets">
 
                <div class="widget widget_contact">
 
