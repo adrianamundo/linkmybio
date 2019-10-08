@@ -21,7 +21,7 @@ links:
     until: "2019/12/11 23:59:00"
   like:
     enable: True
-    linkl: "https://www.tate.org.uk/art/artists/louise-bourgeois-2351"
+    linkl: "https://vs.co/7WfqCOn6C0"
     description: "Go and check some things that I like"
     until: "2019/12/11 23:59:00"
   blog:

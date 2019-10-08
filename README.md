@@ -84,7 +84,7 @@ See you can add any style to your own project. These are only ideas.
 - [x] Project MUST compile
 - [ ] Update README.md to add a section `Usage`, where you will place the commands in order to run your bio.py
 - [x] Add Style, suggestions "bootstrap.css"
-- [ ] Deliver it via `git tags`
+- [x] Deliver it via `git tags`
 - [x] Make sure to use/develop/fill the empty files/folders provided: `static/`, `templates/`, `bio.py` , `requirements.txt`.
 
 
@@ -94,7 +94,7 @@ See you can add any style to your own project. These are only ideas.
 
 
 # Extras:
-x You can **add** any other attribute you like in order to add more functionalities.
+- [x] You can **add** any other attribute you like in order to add more functionalities.
 - Create a "timer" per link, in a new attribute called `until` you will put a date `2019/9/30 20:30:00` which will mean that this specific link will only appear until that date, and after that date it will disappear.
 - Deploy this to real life (AWS lambda, Google Cloud Functions, Heroku)
 - Add CI/CD

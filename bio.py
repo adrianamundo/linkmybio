@@ -15,7 +15,7 @@ def about():
     date = datetime.now()
     date = str(date)
     return render_template("index.html", links = links, info=info, images = images, date = date)
-      
+    
 if __name__ == "__main__":
     debug=False
     if environment == "development" or environment == "local":
