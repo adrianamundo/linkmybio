@@ -8,31 +8,39 @@ links:
     enable: True
     linkf: "https://www.facebook.com/adrianamundog"
     description: "Go and send me a friend request"
+    until: "2019/12/11 23:59:00"
   twitter:
     enable: True
     linkt: "https://twitter.com/adrianamundo"
     description: "Go and follow me on Twitter"
+    until: "2019/12/11 23:59:00"
   github:
     enable: True
     linkg: "https://github.com/adrianamundo?tab=repositories"
     description: "Go checkout my Repositories on Github"
+    until: "2019/12/11 23:59:00"
   like:
     enable: True
     linkl: "https://www.tate.org.uk/art/artists/louise-bourgeois-2351"
     description: "Go and check some things that I like"
+    until: "2019/12/11 23:59:00"
   blog:
     enable: False
     linkb: "https://www.google.com/"
     description: "You can find all here."
+    until: "2019/12/11 23:59:00"
   gmail:
     enable: True
     linkgm: "https://www.google.com/intl/es-419/gmail/about/"
     description: "Send me an email"
+    until: "2019/12/11 23:59:00"
   youtube:
     enable: True
     linktube: "https://www.youtube.com/channel/UCiXc_aWmLXaNokUcHAfqmVQ?view_as=subscriber"
     description: "Go follow me on youtube"
+    until: "2019/12/11 23:59:00"
   skype:
     enable: True
     linksk: "https://secure.skype.com/portal/overview"
     description: "Go add me on Skype"
+    until: "2019/12/11 23:59:00"
